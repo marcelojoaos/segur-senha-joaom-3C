@@ -1,9 +1,9 @@
-}@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap&#39;);
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap&#39;);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap&#39');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap&#39');
 
 :root{
 --branco: white;
---cor-fundo:#00162e;
+--cor-de-fundo:#00162e;
 --fundo-senha:#00244d;
 --fundo-texto: #001e40;
 --borda: #0075ff;
