@@ -11,16 +11,6 @@
     --roboto-mono: 'Roboto Mono', sans-serif;
 }
 
-:root{
---branco: white;
---cor-de-fundo:#00162e;
---fundo-senha:#00244d;
---fundo-texto: #001e40;
---borda: #0075ff;
---roboto: 'Roboto', sans-serif;
---roboto-mono: 'Roboto Mono', sans-serif;
-}
-
 * {
     font-weight: 400;
 }
