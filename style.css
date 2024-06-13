@@ -71,15 +71,15 @@ body {
 }
 
 .parametro{
-    background-color: var (--fundo-texto);
-    border: 2px solid var (--borda);
+    background-color: var(--fundo-senha);
+    border: 2px solid var(--borda);
     margin-top: 32px;
     padding: 24px;
 }
 
 .parametro-titulo{
-  font-family; var(--roboto-mono)
-  font-size: 28px
+  font-family: var(--roboto-mono);
+  font-size: 24px;
 }
 
 .parametro-senha__titulo{
@@ -90,5 +90,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
 
 }
