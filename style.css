@@ -2,59 +2,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
---branco: white;
---cor-de-fundo:#00162e;
---fundo-senha:#00244d;
---fundo-texto: #001e40;
---borda: #0075ff;
---roboto: 'Roboto', sans-serif;
---roboto-mono: 'Roboto Mono', sans-serif;
+    --branco: white;
+    --cor-de-fundo:#00162e;
+    --fundo-senha:#00244d;
+    --fundo-texto: #001e40;
+    --borda: #0075ff;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', sans-serif;
 }
 
 *{
-font-weight: 400;
+    font-weight: 400;
 }
 
 body{
-color: var(--branco);
-background-color: var(--cor-de-fundo);
-font-family: var(--roboto);
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
 
 .titulo-principal{
-font-family: var(--roboto-mono);
-font-size: 32px;
+    font-family: var(--roboto-mono);
+    font-size: 32px;
 }
 
 .titulo-secundario{
-font-size: 24px;
+    font-size: 24px;
 }
 
 .conteudo-titulo{
-text-align: center;
-margin-top: 80px;
+    text-align: center;
+    margin-top: 80px;
 }
 
 .conteudo-senha{
-background-color: var(--fundo-senha);
-padding: 24px;
-border-bottom: 6px solid var(--borda);
-margin-top: 80px;
+    background-color: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    margin-top: 80px;
 }
 
 #campo-senha{
-background-color: var(--fundo-senha);
-border: none;
-color: var(--branco);
-font-family: var(--roboto-mono);
-font-size: 40px;
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+    width: 70%;
 }
 
 #campo-senha-focus{
-outline: none;
+    outline: none;
 }
 
 .conteudo{
-max-width: 1200px;
-margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
+
+.parametro-titulo{
+    font-family: var(--roboto-mono);
+    font-size: 28px;
+}
+
+.parametro-senha__titulo{
+    font-size: 24px;
+}
+
+.parametro-coluna__senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
