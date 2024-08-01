@@ -29,9 +29,10 @@ const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
 const numeros = '0123456789';
 const simbolos = '!@#$%&?';
+
 geraSenha();
 
-function geraSenha() {
+function geraSenha(){
     let senha = '';
     for ( let i = 0; i < tamanhoSenha; i++){
         let numeroAleatorio = math.randon()*letrasMaiusculas.length;
