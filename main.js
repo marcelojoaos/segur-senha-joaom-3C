@@ -29,5 +29,7 @@ function geraSenha() {
     let senha = '';
     for ( let i = 0; i < tamanhoSenha; i++){
         let numeroAleatorio = math.randon()*letrasMaiusculas.length;
+     numeroAleatorio = math.floor(numeroAleatorio);
+    senha = senha + letrasMaiusculas[numeroAleatorio];
     }
 }
